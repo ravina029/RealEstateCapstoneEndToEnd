@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+#datasets
+flats - flats.csv
+independent-house - independent-house.csv
+
 # Distribution / packaging
 .Python
 build/
@@ -127,6 +131,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+realestatevenv/
+
 
 # Spyder project settings
 .spyderproject
