@@ -9,6 +9,10 @@ __pycache__/
 #datasets
 flats - flats.csv
 independent-house - independent-house.csv
+flats_cleaned.csv
+house_cleaned.csv
+final_gurgaon_properties_cleaned.csv
+gurgaaon_properties_cleaned.csv
 
 # Distribution / packaging
 .Python
