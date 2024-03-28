@@ -4,3 +4,4 @@ matplotlib
 scikit-learn
 seaborn
 pandas_profiling
+bs4
