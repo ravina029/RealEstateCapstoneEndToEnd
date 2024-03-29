@@ -1,10 +1,23 @@
 import streamlit as st
 
+# Set page configuration
 st.set_page_config(
-    page_title="Hello",
-    page_icon="👋",
+    page_title="Gurgaon Properties",
+    page_icon="🏠",
 )
 
-st.write("# Welcome to Streamlit! 👋")
+# Main content
+st.title("Welcome to Gurgaon Properties")
+st.write("Explore properties in Gurgaon, India.")
 
-st.sidebar.success("Select a demo above.")
+# Features section
+st.header("Features")
+st.markdown("""
+- **Enquire about properties:** Search for houses and flats in Gurgaon.
+- **Price information:** Get insights into property prices.
+- **Recommendations:** Receive recommendations based on your preferences.
+""")
+
+# Sidebar
+st.sidebar.title("Navigation")
+st.sidebar.markdown("Select a tab from above.")
