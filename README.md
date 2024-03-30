@@ -35,6 +35,7 @@ Amazon Web Services (AWS) is used to deploy the web application. This ensures sc
 
 ## Performance with Streamlit
 Link of the website: http://35.170.202.251:8501/
+
 [Gurgaon Real Estate Project Demo Video](https://youtu.be/sNNPdjwtsyc?si=gfsHSQoA-2t8lerJ)
 
 ![Book Recommendation Application demo screenshot](recommended.png)
