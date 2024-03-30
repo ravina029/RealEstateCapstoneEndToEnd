@@ -8,10 +8,10 @@ import numpy as np
 st.set_page_config(page_title="Visualization of the data")
 
 
-with open("df.pkl",'rb') as file:
+with open("website/df.pkl",'rb') as file:
     df=pickle.load(file)
 
-with open("pipelineXGB.pkl",'rb') as file:
+with open("website/pipelineXGB.pkl",'rb') as file:
     pipeline=pickle.load(file)
 
 #st.dataframe(df)  for visualizing the data

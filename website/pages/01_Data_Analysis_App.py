@@ -13,7 +13,7 @@ st.set_page_config(page_title="Property Analysis", page_icon="📈")
 with open("website/data_with_price.pkl",'rb') as file:
     df=pickle.load(file)
 
-feature_text = pickle.load(open('/Users/ravina/Desktop/RealEstateProject/website/feature_text.pkl','rb'))
+feature_text = pickle.load(open('website/feature_text.pkl','rb'))
 #complete text data for all sectors
 with open("website/transformed_wordcloud_df.pkl",'rb') as file:
    transformed_wordcloud_df = pickle.load(file)

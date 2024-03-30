@@ -74,11 +74,7 @@ sudo apt install git curl unzip tar make sudo vim wget -y
 ```
 
 ```bash
-sudo apt install git curl unzip tar make sudo vim wget -y
-```
-
-```bash
-git clone "Your-repository"
+git clone https://github.com/ravina029/RealEstateProject.git
 ```
 
 ```bash
@@ -91,12 +87,12 @@ pip3 install -r requirements.txt
 
 ```bash
 #Temporary running
-python3 -m streamlit run app.py
+python3 -m streamlit run website/Homepage.py
 ```
 
 ```bash
 #Permanent running
-nohup python3 -m streamlit run app.py
+nohup python3 -m streamlit run website/Homepage.py
 ```
 
 Note: Streamlit runs on this port: 8501
