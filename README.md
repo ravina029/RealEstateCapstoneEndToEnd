@@ -41,6 +41,7 @@ Some of the screenshots of our Web application are below:
 ![ Website screenshot](webscreenshorts/Homepage.png)
 ![](webscreenshorts/dataAnalysis.png)
 ![](webscreenshorts/dataAnalysis2.png)
+![](webscreenshorts/priceprediction.png)
 ![](webscreenshorts/Recommender.png)
 
 
