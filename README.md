@@ -33,7 +33,17 @@ Streamlit is being used to develop a user-friendly web application. This applica
 Amazon Web Services (AWS) is used to deploy the web application. This ensures scalability to accommodate increasing user traffic and maintain accessibility for users from various locations.
 
 
-## Performance with Streamlit
+## Streamlit Web
+
+## Website Components
+
+Our project comprises three main components:
+
+1. **Data Preprocessing and Data Analysis**: This component involves preprocessing the data and conducting thorough data analysis to gain insights.
+2. **Price Prediction**: In this component, we develop a predictive model to estimate prices based on various features and factors related to the dataset.
+
+3. **Recommendation Module**: The recommendation module is designed to provide recommendations based on user preferences.
+
 
 [Website Demo Video](https://youtu.be/n9o6-aBAAVo)
 
