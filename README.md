@@ -34,11 +34,16 @@ Amazon Web Services (AWS) is used to deploy the web application. This ensures sc
 
 
 ## Performance with Streamlit
-Link of the website: http://35.170.202.251:8501/
+[Link of the website:] (http://35.170.202.251:8501/)
 
-[Gurgaon Real Estate Project Demo Video](https://youtu.be/sNNPdjwtsyc?si=gfsHSQoA-2t8lerJ)
+[Book Recommendor Demo Video](https://youtu.be/sNNPdjwtsyc?si=gfsHSQoA-2t8lerJ)
 
-![Book Recommendation Application demo screenshot](recommended.png)
+![ Website screenshot](webscreenshorts/Homepage.png)
+![](webscreenshorts/dataAnalysis.png)
+![](webscreenshorts/dataAnalysis2.png)
+![](webscreenshorts/dataAnalysis2.png)
+![](webscreenshorts/Recommender.png)
+
 
 
 # How to use
@@ -47,7 +52,7 @@ Link of the website: http://35.170.202.251:8501/
    git clone (https://github.com/ravina029/book-recommendor)
 
 2. run the command 
-   streamlit run app.py
+   streamlit run website/Homepage.py
  
 
 
