@@ -13,12 +13,12 @@ This project explores the application of data science techniques for real estate
 
 - Feature selection methods like correlation analysis and feature importance analysis were used to identify the most relevant features for price prediction. Techniques like removing highly correlated features and leveraging Random Forest's feature importance were considered.
 - XGBoost, a gradient boosting regression model, was trained on the prepared data and achieved the best accuracy in predicting property prices. Other regression models have also been explored during the project. XGBoost performed the best.
-- The model was evaluated on unseen data using metrics like R-squared and Mean Squared Error (MSE). This assessment helps gauge the model's effectiveness in predicting property prices.
-- Missing value imputation techniques like deletion, mean/median imputation were explored to address missing values in the data.
+- The model was evaluated on unseen data using metrics like R-squared with score 0.90876 and Mean Squared Error (MSE) of 0.202. This assessment helps gauge the model's effectiveness in predicting property prices.
+- Techniques like deletion, mean/median imputation were explored to address missing values in the data.
 
 ## Building the Price Prediction Pipeline:
 
-The project outlines the steps involved in creating a real estate price prediction model:
+The project outlines the steps involved in creating the model:
 1. Data preprocessing
 2. Model selection (XGBoost in this case)
 3. Model training
@@ -34,15 +34,17 @@ Amazon Web Services (AWS) is used to deploy the web application. This ensures sc
 
 
 ## Performance with Streamlit
-[Link of the website:] (http://35.170.202.251:8501/)
 
-[Book Recommendor Demo Video](https://youtu.be/sNNPdjwtsyc?si=gfsHSQoA-2t8lerJ)
-Some of the screenshots of our Web application are below:
+[Website Demo Video](https://youtu.be/n9o6-aBAAVo)
+
+Some of the screenshots of Web application are below:
 ![ Website screenshot](webscreenshots/Homepage.png)
 ![](webscreenshots/dataAnalysis.png)
 ![](webscreenshots/dataAnalysis2.png)
 ![](webscreenshots/priceprediction.png)
 ![](webscreenshots/Recommender.png)
+
+[Link of the website:] (http://35.170.202.251:8501/) 
 
 
 
