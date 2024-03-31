@@ -37,8 +37,8 @@ Amazon Web Services (AWS) is used to deploy the web application. This ensures sc
 [Link of the website:] (http://35.170.202.251:8501/)
 
 [Book Recommendor Demo Video](https://youtu.be/sNNPdjwtsyc?si=gfsHSQoA-2t8lerJ)
-
-[ Website screenshot](webscreenshorts/Homepage.png)
+Some of the screenshots of our Web application are below:
+![ Website screenshot](webscreenshorts/Homepage.png)
 ![](webscreenshorts/dataAnalysis.png)
 ![](webscreenshorts/dataAnalysis2.png)
 ![](webscreenshorts/Recommender.png)
