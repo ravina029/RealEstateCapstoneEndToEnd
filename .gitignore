@@ -12,7 +12,10 @@ independent-house - independent-house.csv
 flats_cleaned.csv
 house_cleaned.csv
 final_gurgaon_properties_cleaned.csv
-gurgaaon_properties_cleaned.csv
+gurgaon_properties_cleaned.csv
+properties_OutlierTreatment_missing_value_imputation.csv
+gurgaon_properties_with_new_features.csv
+gurgaon_outliers_treated.csv
 
 # Distribution / packaging
 .Python
