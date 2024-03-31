@@ -38,9 +38,8 @@ Amazon Web Services (AWS) is used to deploy the web application. This ensures sc
 
 [Book Recommendor Demo Video](https://youtu.be/sNNPdjwtsyc?si=gfsHSQoA-2t8lerJ)
 
-![ Website screenshot](webscreenshorts/Homepage.png)
+[ Website screenshot](webscreenshorts/Homepage.png)
 ![](webscreenshorts/dataAnalysis.png)
-![](webscreenshorts/dataAnalysis2.png)
 ![](webscreenshorts/dataAnalysis2.png)
 ![](webscreenshorts/Recommender.png)
 
