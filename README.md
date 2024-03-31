@@ -1,6 +1,6 @@
 # Real Estate Price Prediction Capstone Project Summary
 
-This project explores the application of data science techniques for real estate price prediction in the Gurgaon area.
+This project explores the application of data science techniques for real estate price prediction in the Gurgaon (India) area.
 
 ## Data Collection and Preparation:
 
