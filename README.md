@@ -1,10 +1,10 @@
-# Real Estate Price Prediction Capstone Project Summary
+# Real Estate Price Prediction Project
 
 This project explores the application of data science techniques for real estate price prediction in the Gurgaon (India) area.
 
 ## Data Collection and Preparation:
 
-- Raw data was used gathered by scraping real estate listings from the 99acres website, along with exploration of other property listing platforms.
+- Data was gathered from real estate property listing platforms such as 99acres and others.
 - The collected data underwent meticulous cleaning to address missing values and inconsistencies. Information on houses and flats was merged into a unified dataset.
 - Feature engineering techniques were employed to enrich the data and create new features that provide a more detailed representation of the properties. Examples include additional room indicators, area with type specifications, and age of possession.
 - Exploratory Data Analysis (EDA) was conducted using techniques like Pandas Profiling to understand the data distribution, identify patterns, and uncover relationships between various features.
