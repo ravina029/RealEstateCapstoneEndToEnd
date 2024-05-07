@@ -17,7 +17,7 @@ This project explores the application of data science techniques for real estate
 ![](webscreenshots/Recommender.png)
 
 
-## Components of the project:
+## Project Structure:
 1. Data ingestion, Data Cleaning and  Data Preprocessing.
 2. Exploratory data Analysis, Feature Engineering and feature selection using different statistical techniques and using machine learning models.
 3. Model building, model selection and hyperparameter finetuning.
@@ -25,7 +25,7 @@ This project explores the application of data science techniques for real estate
 5. Streamlit webapplication 
 6. Model deployement on cloud using AWS EC2 instance.
 
-## 1. Data Ingestion and data Preparation, EDA and feature selection:
+## Data Ingestion and data Preparation, EDA and feature selection:
 
 - Data was gathered from real estate property websites such as 99acres and others.
 - Raw independent-house data file: "/Users/ravina/Desktop/RealEstateProject/Datasets/independent-house - independent-house.csv"
