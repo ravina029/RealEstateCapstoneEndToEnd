@@ -140,5 +140,5 @@ nohup python3 -m streamlit run website/Homepage.py
 Note: Streamlit runs on this port: 8501
 
 
-Overall, this project showcases the power of data science in real estate price prediction. By leveraging data collection, cleaning, feature engineering, model building with XGBoost achieving the best accuracy, and deployment on a cloud platform, the project aims to create a valuable tool for users to gain insights into the Gurgaon real estate market.
+Overall, this project showcases the power of data science in real estate. By leveraging data collection, cleaning, feature engineering, model building with XGBoost achieving the best accuracy, and deployment on a cloud platform, the project aims to create a valuable tool for users to gain insights into the Gurgaon real estate market,predicting price and getting recommendation about the properties.
 
