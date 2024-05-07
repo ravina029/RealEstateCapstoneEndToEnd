@@ -1,51 +1,7 @@
-# Real Estate Price Prediction Project
+# Real Estate Capstone Project
 
-This project explores the application of data science techniques for real estate price prediction in the Gurgaon (India) area.
+This project explores the application of data science techniques for real estate use cases. Created a streamlit website having three components of the project: "Property data analysis APP", "Price prediction module" and "Recommender System". Our model is trained on the property data of Gurgaon city in India and our final trained model achieve R-squared score of 90.8 which indicate the model's explainablity for the prediction. 
 
-## Data Collection and Preparation:
-
-- Data was gathered from real estate property listing platforms such as 99acres and others.
-- The collected data underwent meticulous cleaning to address missing values and inconsistencies. Information on houses and flats was merged into a unified dataset.
-- Feature engineering techniques were employed to enrich the data and create new features that provide a more detailed representation of the properties. Examples include additional room indicators, area with type specifications, and age of possession.
-- Exploratory Data Analysis (EDA) was conducted using techniques like Pandas Profiling to understand the data distribution, identify patterns, and uncover relationships between various features.
-
-## Model Building and Evaluation:
-
-- Feature selection methods like correlation analysis and feature importance analysis were used to identify the most relevant features for price prediction. Techniques like removing highly correlated features and leveraging Random Forest's feature importance were considered.
-- XGBoost, a gradient boosting regression model, was trained on the prepared data and achieved the best accuracy in predicting property prices. Other regression models have also been explored during the project. XGBoost performed the best.
-- The model was evaluated on unseen data using metrics like R-squared with score 0.90876 and Mean Squared Error (MSE) of 0.202. This assessment helps gauge the model's effectiveness in predicting property prices.
-- Techniques like deletion, mean/median imputation were explored to address missing values in the data.
-
-## Building the Price Prediction Pipeline:
-
-The project outlines the steps involved in creating the model:
-1. Data preprocessing
-2. Model selection (XGBoost in this case)
-3. Model training
-4. Model evaluation
-5. Model selection and refinement 
-
-Streamlit is being used to develop a user-friendly web application. This application will allow users to interact with the model and potentially predict property prices based on user-provided features.
-
-
-## Deployment on AWS:
-
-Amazon Web Services (AWS) is used to deploy the web application. This ensures scalability to accommodate increasing user traffic and maintain accessibility for users from various locations.
-
-
-## Streamlit Web
-
-## Website Components
-
-Our project comprises three main components:
-
-1. **Data Preprocessing and Data Analysis**: This component involves preprocessing the data and conducting thorough data analysis to gain insights.
-2. **Price Prediction**: In this component, we develop a predictive model to estimate prices based on various features and factors related to the dataset.
-
-3. **Recommendation Module**: The recommendation module is designed to provide recommendations based on user preferences.
-
-
-[Website Demo Video](https://youtu.be/n9o6-aBAAVo)
 
 Some of the screenshots of Web application are below:
 ![ Website screenshot](webscreenshots/Homepage.png)
@@ -53,6 +9,67 @@ Some of the screenshots of Web application are below:
 ![](webscreenshots/dataAnalysis2.png)
 ![](webscreenshots/priceprediction.png)
 ![](webscreenshots/Recommender.png)
+
+
+## Components of the project:
+1. Data ingestion, Data Cleaning and  Data Preprocessing.
+2. Exploratory data Analysis, Feature Engineering and feature selection using different statistical techniques and using machine learning models.
+3. Model building, model selection and hyperparameter finetuning.
+4. Building Recommender sysytem.
+5. Streamlit webapplication 
+6. Model deployement on cloud using AWS EC2 instance.
+
+## 1. Data Ingestion and data Preparation, EDA and feature selection:
+
+- Data was gathered from real estate property websites such as 99acres and others.
+- Raw independent-house data file: "/Users/ravina/Desktop/RealEstateProject/Datasets/independent-house - independent-house.csv"
+- Raw flats data- "/Users/ravina/Desktop/RealEstateProject/Datasets/flats - flats.csv"
+- The collected data underwent meticulous cleaning to address missing values and inconsistencies. Information on houses and flats was merged into a unified file "/Users/ravina/Desktop/RealEstateProject/Datasets/flat-housemerged.csv".
+- Techniques like deletion, mean/median imputation were explored to address missing values in the data.
+- Feature engineering techniques were employed to enrich the data and create new features that provide a more detailed representation of the properties. Examples include additional room indicators, area with type specifications, and age of possession.
+- Feature selection methods like correlation analysis and feature importance analysis were used to identify the most relevant features for price prediction. Techniques like removing highly correlated features and leveraging Random Forest's feature importance were considered.
+- Exploratory Data Analysis (EDA) was conducted using techniques pandas, matplotlibn, seaborn and and adavnce technique like Pandas Profiling to understand the data distribution, identify patterns, and uncover relationships between various features.
+
+
+
+
+## Building the Price Prediction Mode Pipeline:
+
+The project outlines the steps involved in creating the model:
+
+1. Model training
+2. Model evaluation
+3. Model selection (XGBoost in this case) and refinement  
+
+- XGBoost, a gradient boosting regression model, was trained on the prepared data and achieved the best accuracy in predicting property prices. Other regression models have also been explored during the project. XGBoost performed the best.
+- The model was evaluated on unseen data using metrics like R-squared. model achieved R-squared score of 0.90876 and Mean Squared Error (MSE) of 0.202. This assessment helps gauge the model's effectiveness in predicting property prices.
+
+
+
+# Building Recommender sysytem
+Recommender system provides users with the recommended property options according to the user preferences.
+
+
+# Building streamlit web application:
+Streamlit is being used to develop a user-friendly web application. This application will allow users to interact with the model and potentially predict property prices based on user-provided features.
+
+## Website Components
+
+Our project comprises three main components:
+
+1. **Data Preprocessing and Data Analysis**: This component involves preprocessing the data and conducting thorough data analysis to provide insights about the data.
+2. **Price Prediction**: In this component, we developed a predictive component to estimate prices based on various features and factors related to the dataset.
+
+3. **Recommendation Module**: The recommendation module is designed to provide recommendations based on user preferences.
+
+
+## Deployment on AWS:
+
+Amazon Web Services (AWS) is used to deploy the web application. This ensures scalability to accommodate increasing user traffic and maintain accessibility for users from various locations.
+
+
+
+[Website Demo Video](https://youtu.be/n9o6-aBAAVo)
 
 [Link of the website:] (http://35.170.202.251:8501/) 
 
