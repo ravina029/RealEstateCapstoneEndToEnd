@@ -3,7 +3,7 @@
 This project explores the application of data science techniques for real estate use cases. Created a streamlit website having three components of the project: "Property data analysis APP", "Price prediction module" and "Recommender System". Our model is trained on the property data of Gurgaon city in India and our final trained model achieve R-squared score of 90.8 which indicate the model's explainablity for the prediction. 
 
 
-# Some of the screenshots of Web application are below:
+# Some of the screenshots of web application are below:
 
 **Data Analysis**
 ![ Website screenshot](webscreenshots/Homepage.png)
@@ -39,7 +39,7 @@ This project explores the application of data science techniques for real estate
 
 
 
-## Building the Price Prediction Mode Pipeline:
+## Building the Price Prediction Pipeline:
 
 The project outlines the steps involved in creating the model:
 
